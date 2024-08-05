@@ -13,6 +13,7 @@ public class CashbackHackServiceTest {
         int expected = 100;
         Assert.assertEquals(actual, expected);
     }
+
     @Test
     public void shouldNotCalculateRemainIfDivided1000() {
         CashbackHackService service = new CashbackHackService();
